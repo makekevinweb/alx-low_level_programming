@@ -12,10 +12,10 @@ long int li;
 long long int lli;
 float f;
 
-printf("Size of a char:%lu/n", (unsigned long)sizeof(i));
- printf("size of char:%lu/n", (unsigned long)sizeof(c));
- printf("size of long int:%lu/n", (unsigned long)sizeof(li));
- printf("size of long long int:%lu/n", (unsigned long)sizeof(lli));
- printf("size of float:%lu/n", (unsigned long)sizeof(f));
+printf("Size of an int: %lu byte(s)/n", (unsigned long)sizeof(i));
+printf("size of a char: %lu byte(s)/n", (unsigned long)sizeof(c));
+printf("size of a long int: %lu byte(s)/n", (unsigned long)sizeof(li));
+printf("size of a long long int: %lu byte(s)/n", (unsigned long)sizeof(lli));
+printf("size of a float: %lu byte(s)/n", (unsigned long)sizeof(f));
 return (0);
 }
