@@ -1,5 +1,4 @@
-#include <stdio.c>
-#include <stdio.c>
+#include <stdio.h>
 /**
  *main - Entry point
  *REturn: Always 0(Success)
