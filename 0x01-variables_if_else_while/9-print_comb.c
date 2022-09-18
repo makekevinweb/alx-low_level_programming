@@ -5,17 +5,16 @@
  */
 int main(void)
 {
-char a = 'a';
-char A = 'A';
-while (a <= 'z')
+int c = '0';
+while (c <= '9')
 {
-putchar(a);
-a++;
-} 
-while (A <= 'Z')
+putchar(c);
+if (c != '9')
 {
-putchar('A');
-A++;
+putchar(',');
+putchar(' ');
+}
+c++;
 }
 putchar('\n');
 return (0);
