@@ -1,1 +1,1 @@
-This is the beginning of a c programmer
+These are tasks on C functions and nested loops
