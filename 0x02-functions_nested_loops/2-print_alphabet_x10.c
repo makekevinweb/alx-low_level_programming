@@ -3,7 +3,7 @@
  *print_alphabet_x10 -function to print the alphabet 10 times
  *retunrn: void
  */
-void print_alphabet_10(void)q
+void print_alphabet_10(void)
 {
 int j;
 j = 0;
