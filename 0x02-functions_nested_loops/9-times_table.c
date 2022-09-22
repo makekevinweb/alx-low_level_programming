@@ -7,17 +7,30 @@
  */
 void times_table(void)
 {
-int row, nbrs, ans;
-for (row = 0; row <= 9; row++)
+int rone, cone, d;
+for (rone = 0; rone <= 9; rone++)
 {
-for (nbrs = 0; nbrs < 9; nbrs++)
+_putchar('0');
+_putchar(',');
+_putchar(' ');
+for (cone = 1; cone <= 9; cone++)
 {
-ans = row * nbrs;
-_putchar(ans + '0');
+d = (rone * cone);
+if ((d / 10) > 0)
+{
+_putchar((d / 10) + '0');
+}
+else
+{
+_putchar(' ');
+}
+_putchar((d % 10) + '0');
+if (cone < 9)
+{
 _putchar(',');
 _putchar(' ');
 }
-_putchar(ans + '0');
+}
 _putchar('\n');
 }
 }
