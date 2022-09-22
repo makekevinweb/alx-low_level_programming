@@ -7,6 +7,17 @@
  */
 void times_table(void)
 {
-  int rone, cone, d;
-  
+int row, nbrs, ans;
+for (row = 0; row <= 9; row++)
+{
+for (nbrs = 0; nbrs < 9; nbrs++)
+{
+ans = row * nbrs;
+_putchar(ans + '0');
+_putchar(',');
+_putchar(' ');
+}
+_putchar(ans + '0');
+_putchar('\n');
+}
 }
