@@ -5,7 +5,6 @@
 *
 *Return: Always 0 (Success)
 */
-sizeof();
 
 int main(void)
 {
