@@ -1,10 +1,12 @@
 #include<stdio.h>
 
-/*
- *main - Entry point
- *
- *Return: Always 0 (Success)
- */
+/**
+*main - Entry point
+*
+*Return: Always 0 (Success)
+*/
+sizeof();
+
 int main(void)
 {
 printf("Size of a char: %u byte(s)\n", sizeof(char));
