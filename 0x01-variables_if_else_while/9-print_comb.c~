@@ -5,11 +5,20 @@
  */
 int main(void)
 {
-char n;
-for (n = 'a'; n <= 'z' && n != 'e' && n != 'q'; n++)
+int n;
+while (n <= '9')
 {
 putchar(n);
+}
+if( n < '9')
+{
+putchar(',');
+putchar(' ');
+}
+n++;
 }
 putchar('\n');
 return (0);
 }
+
+

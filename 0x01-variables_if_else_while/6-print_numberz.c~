@@ -1,3 +1,4 @@
+File Edit Options Buffers Tools C Help
 #include <stdio.h>
 /**
  *main - Entry point
@@ -6,9 +7,10 @@
 int main(void)
 {
 char n;
-for (n = 'a'; n <= 'z' && n != 'e' && n != 'q'; n++)
+for (n = '0'; n <= '9'; n++)
 {
 putchar(n);
 }
-putchar('\n');return (0);
+putchar('\n');
+return (0);
 }
