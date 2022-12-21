@@ -1,9 +1,0 @@
-#nclude "main.h"
-/**
- *print_rev -prints a string in reverse direction.
- * @s: the string to be printed put
- */
-void print_rev(char *s)
-{
-  
-}
