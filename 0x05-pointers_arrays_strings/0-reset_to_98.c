@@ -1,7 +1,7 @@
 /**
  *reset_to_98 - the integer to be changed is put in here
  *
- *Return: Always 0(Success)
+ *@n: this is the entry
  *
  */
 
