@@ -9,7 +9,7 @@
 */
 char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int i = 0; /* i is set to 0  so that we can start with first memory area of s*/
+unsigned int i = 0; /* i is set to 0 so as to start at 1st memory area of s*/
 for (i = 0; i < n; i++)
 s[i] = b; /* this assigns a value of b to the specific memory area*/
 
