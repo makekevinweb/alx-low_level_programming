@@ -1,0 +1,17 @@
+#include main.h
+/**
+*_memset - this function fills the first n spaces of memory of the char s with the value of b
+*@s: a pointer to the char s whose address will be filled with the value b
+*@b: this is the value assigned to the memory areas of the char s
+*@n: this is the number of memory areas of char s to fill up with the value b
+*
+*return: a pointer to the memory area s
+*/
+char *_memset(char *s, char b, unsigned int n)
+{
+int i = 0; /* i is set to 0  so that we can start with first memory area of s*/
+for (i = 0; i < 0, i++)
+s[i] = b; /* this assigns a value of b to the specific memory area*/
+
+return (s);
+}
