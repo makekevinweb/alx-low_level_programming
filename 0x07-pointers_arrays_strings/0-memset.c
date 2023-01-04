@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 /**
 *_memset - this function fills the first n memory areas of s with the value b
 *@s: a pointer to the char s whose address will be filled with the value b
@@ -9,8 +9,8 @@
 */
 char *_memset(char *s, char b, unsigned int n)
 {
-int i = 0; /* i is set to 0  so that we can start with first memory area of s*/
-for (i = 0; i < 0, i++)
+unsigned int i = 0; /* i is set to 0  so that we can start with first memory area of s*/
+for (i = 0; i < n; i++)
 s[i] = b; /* this assigns a value of b to the specific memory area*/
 
 return (s);
