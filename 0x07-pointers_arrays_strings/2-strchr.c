@@ -14,9 +14,9 @@ while (*s != '\0')/* go through the string until we reach the null character*/
 {
 if (c == *s)/* check if current character is c*/
 {
-return (s);/* return a pointer to current character if it is c*/
+return s;/* return a pointer to current character if it is c*/
 }
 s++; /*move to the next character in the string*/
 }
-return (NULL);/* in case of C not found in the string returns NULL*/
+return NULL;/* in case of C not found in the string returns NULL*/
 }
