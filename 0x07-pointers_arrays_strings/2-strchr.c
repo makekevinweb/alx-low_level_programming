@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- *_strchr - the function searches for a certain string in a character
- *
- *@s: this is a pointer to the string s
- *@c: this is the character we are searching for
- *
- *Return: pointer to the first occurence of c Or NULL if the c is not found
- */
+*_strchr - the function searches for a certain string in a character
+*
+*@s: this is a pointer to the string s
+*@c: this is the character we are searching for
+*
+*Return: pointer to the first occurence of c Or NULL if the c is not found
+*/
 char *_strchr(char *s, char c)
 {
 while (*s != '\0')/* go through the string until we reach the null character*/
