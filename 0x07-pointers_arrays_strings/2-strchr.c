@@ -22,5 +22,9 @@ if (*s == '\0')/*this solves issue of handling \0*/
 {
 return (s);
 }
+else
+{
+return (NULL);
+}
 return (NULL);/* in case of C not found in the string returns NULL*/
 }
