@@ -18,9 +18,9 @@ return (s);/* return a pointer to current character if it is c*/
 }
 s++; /*move to the next character in the string*/
 }
-if (*s == '\0')/*this solves issue of handling \0*/
+if (*s == c)/*this solves issue of handling \0*/
 {
-return (NULL);
+return (s);
 }
 return (NULL);/* in case of C not found in the string returns NULL*/
 }
