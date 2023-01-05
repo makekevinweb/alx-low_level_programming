@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 /**
 *_strchr - the function searches for a certain string in a character
 *
@@ -17,5 +18,5 @@ return (s);/* return a pointer to current character if it is c*/
 }
 s++; /*move to the next character in the string*/
 }
-return (0);/* in case of C not found in the string returns NULL*/
+return (NULL);/* in case of C not found in the string returns NULL*/
 }
