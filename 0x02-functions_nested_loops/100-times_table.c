@@ -69,8 +69,8 @@ _putchar(' ');
 	 _putchar(' ');
        }
    }
+ }
 _putchar('\n');/*add a new line afer first row of multiplication*/
-}
 }
 }
 }
