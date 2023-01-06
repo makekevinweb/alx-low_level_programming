@@ -1,4 +1,4 @@
-#include <stdio.h>w
+#include <stdio.h>
 /**
  *main - function to print the sum of multiples of 3 and 5
  *
@@ -10,7 +10,7 @@ int main (void)
 {
   int sum;
   int i;
-  for ( i = 0, i < 1024; i++)
+  for (i = 0; i < 1024; i++)
     {
       sum = 0;
       if ((i % 3) == 0)
