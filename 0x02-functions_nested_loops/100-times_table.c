@@ -32,7 +32,7 @@ _putchar(' ');
 else if (k > 9 && k < 100)
 {
 _putchar((k / 10) + '0');/* this prints the first digit of the double digit number*/
-_putchar((k % 10) + '0');;/* this prints the last digit of the double digit number*/
+_putchar((k % 10) + '0');/* this prints the last digit of the double digit number*/
 
 if (j < n) /* it adds comma and space between for the multiplication table*/
 {
@@ -41,7 +41,7 @@ _putchar(' ');
 _putchar(' ');
 _putchar(' ');
 }
- }else if (k > 9 && k < 100)
+ }else if (k > 99 && k < 100)
   {
     _putchar((k / 10) + '0');/* this prints the first digit of the double digit number*/
     _putchar((k % 10) + '0');/* this prints the last digit of the double digit number*/
