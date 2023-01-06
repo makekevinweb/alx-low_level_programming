@@ -17,7 +17,7 @@ k = j * i;/* k is the product of i and j which is to be printed*/
 /* this run for product under 10, when it goes beyond 10 we must use printf
  * but in order to continue using putchar we will add in more code
  */
- if (k = 0)
+ if (k == 0)
    {
      _putchar(k + '0');
    }
@@ -29,7 +29,7 @@ _putchar(' ');
 _putchar(' ');
 _putchar(k + '0');
 }
-}
+
 /*this prints values between 9 and 100*/
 else if (k > 9 && k < 100)
 {
