@@ -59,7 +59,7 @@ _putchar(' ');
    {
      _putchar((k / 100) + '0');/* this prints the first digit of the double digit number*/
      _putchar(((k % 100)/10) + '0');/* this prints the second digit of the double digit number*/
-     _putchar(k % 10) + '0');/* this always prints the last digit*/
+     _putchar((k % 10) + '0');/* this always prints the last digit*/
      
      if (j < n) /* it adds comma and space between for the multiplication table*/
        {
