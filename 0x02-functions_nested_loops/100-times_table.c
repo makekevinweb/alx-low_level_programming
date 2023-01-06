@@ -39,7 +39,6 @@ if (j < n) /* it adds comma and space between for the multiplication table*/
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
-_putchar(' ');
 }
  }else if (k > 99 && k < 100)
   {
@@ -64,9 +63,7 @@ _putchar(' ');
      if (j < n) /* it adds comma and space between for the multiplication table*/
        {
 	 _putchar(',');
-	 _putchar(' ');
-	 _putchar(' ');
-	 _putchar(' ');
+	 _putchar(' ');/* we use one space in order to make sure table is uniform and look goods*/
        }
    }
  }
