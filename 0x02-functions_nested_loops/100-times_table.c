@@ -21,6 +21,14 @@ k = j * i;/* k is the product of i and j which is to be printed*/
    {
      _putchar(k + '0');
    }
+ /* this statement is for the first line of o's */
+ if ( k == 0 && i == 0 && j != n)
+   {
+     _putchar(',');
+     _putchar(' ');
+     _putchar(' ');
+     _putchar(' ');
+   }
 if (k < 10 && k != 0)
 {
 _putchar(',');
