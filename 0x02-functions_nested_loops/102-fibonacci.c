@@ -13,7 +13,7 @@ int main(void)
   j = 2;
   for (n = 1; n <= 50; n++)
     {
-      if (i != 12586269025)
+      if (i != 20365011074)
 	{
 	  printf("%ld, ", i);
 	}
