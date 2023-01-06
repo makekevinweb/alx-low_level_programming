@@ -17,9 +17,9 @@ _putchar(k + '0');
 if (j < n) /* it adds comma and space between for the multiplication table*/
 {
 _putchar(',');
+} 
 _putchar(' ');
 _putchar(' ');
-}
 }
 _putchar('\n');/*add a new line afer first row of multiplication*/
 }
