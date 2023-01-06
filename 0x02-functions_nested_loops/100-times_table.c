@@ -13,6 +13,7 @@ for (i = 0; i <= n; i++)
 for (j = 0; j <= n; j++)
 {
 k = j * i;/* k is the product of i and j which is to be printed*/
+
 /* this run for product under 10, when it goes beyond 10 we must use printf
  * but in order to continue using putchar we will add in more code
  */
@@ -40,19 +41,7 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 }
- }else if (k > 99 && k < 100)
-  {
-    _putchar((k / 10) + '0');/* this prints the first digit of the double digit number*/
-    _putchar((k % 10) + '0');/* this prints the last digit of the double digit number*/
-
-    if (j < n) /* it adds comma and space between for the multiplication table*/
-      {
-	_putchar(',');
-	_putchar(' ');
-	_putchar(' ');
-	_putchar(' ');
-      }
-  }
+}
 /* the following prints values between 99 and 999*/
  else if (k > 99 && k < 1000)
    {
