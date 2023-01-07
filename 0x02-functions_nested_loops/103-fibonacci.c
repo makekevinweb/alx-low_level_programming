@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-  int n; /* the fibonacci number to calculate*/
+  
   long int i, j, next, sum;
   /*numbers used in calculation; long int is used as it can hold bigger values*/
   /*because if we don't the statemt for i != 12586269025* we always be true*/
