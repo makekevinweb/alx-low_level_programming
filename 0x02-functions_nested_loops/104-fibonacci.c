@@ -14,11 +14,11 @@ int main(void)
   j = 2;
   for (n = 1; n <= 98; n++)
     {
-      if (i != 83621143489848422977)
+      if (n = 98)
 	{
 	  printf("%lu, ", i);
 	}
-      else
+      if(n < 98)
 	{
 	  printf("%lu\n", i);
 	}
