@@ -14,7 +14,7 @@ int main(void)
   j = 2;
   for (n = 1; n <= 98; n++)
     {
-      if (n = 98)
+      if (n == 98)
 	{
 	  printf("%lu, ", i);
 	}
