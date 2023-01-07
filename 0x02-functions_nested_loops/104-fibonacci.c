@@ -7,7 +7,7 @@
 int main(void)
 {
   int n; /* the fibonacci number to calculate*/
-  long int i, j, next;
+  long unsigned int i, j, next;
   /*numbers used in calculation; long int is used as it can hold bigger values*/
   /*because if we don't the statemt for i != 12586269025* we always be true*/
   i = 1;
@@ -16,11 +16,11 @@ int main(void)
     {
       if (i != 83621143489848422977)
 	{
-	  printf("%ld, ", i);
+	  printf("%lu, ", i);
 	}
       else
 	{
-	  printf("%ld\n", i);
+	  printf("%lu\n", i);
 	}
       next = i + j;
       i = j;
