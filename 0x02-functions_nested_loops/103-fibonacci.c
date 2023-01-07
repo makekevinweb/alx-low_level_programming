@@ -12,6 +12,7 @@ int main(void)
   /*because if we don't the statemt for i != 12586269025* we always be true*/
   i = 1;
   j = 2;
+  sum = 0;
   while (i <= 4000000)
     {
       if ((i % 2) == 0)
