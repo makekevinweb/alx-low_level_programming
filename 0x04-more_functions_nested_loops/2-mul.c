@@ -3,7 +3,8 @@
  *mul - multiplies two integers
  *@a: integer 1
  *@b: integer 2
- *return: Always 0
+ *
+*Return: mul
  */
 int mul(int a, int b)
 {
