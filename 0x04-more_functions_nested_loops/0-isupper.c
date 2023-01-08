@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- *isupper - returns 1 if a charater is a capital letter
+ *_isupper - returns 1 if a charater is a capital letter
+ *@c: the character to be checked
  *
  *Return: 1 if c is a capital letter and is 0 if not
  */
