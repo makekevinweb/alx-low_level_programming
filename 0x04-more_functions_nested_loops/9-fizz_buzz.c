@@ -5,7 +5,7 @@
  *it prints buzz for multiples 5
  *it prints fizzbuzz for multiples of 3 and 5
  *
- *return: always 0
+ *Return: always 0
  */
 int main(void)
 {
@@ -37,8 +37,7 @@ else
 {
 printf(" %d", i);
 }
-printf("\n");
- 
 }
+printf("\n");
 return (0);
 }
