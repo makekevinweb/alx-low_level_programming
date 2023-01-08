@@ -5,12 +5,12 @@
  *
  *return: always 0
  */
-void print_diagonal( int n)
+void print_diagonal(int n)
 {
 int i;
 int j;
 
-if ( n < 1) /*for values below 1*/
+if (n < 1) /*for values below 1*/
 {
 _putchar('\n');
 }
@@ -27,5 +27,5 @@ _putchar('\\');
 _putchar('\n');
 }
 }
-  
+
 }
