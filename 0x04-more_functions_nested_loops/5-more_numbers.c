@@ -1,16 +1,17 @@
+
 #include "main.h"
 /**
- *print_most_numbers - prints the first 10 natural numbers except 2 and 4
+ *more_numbers - prints the first 14 natural numbers 10 times
  *
  *return: Always 0
  */
-void print_most_numbers(void)
+void more_numbers(void)
 {
 int i;
 int n;
 for (i = 0; i < 10; i++)
 {
-  for (n = 0; n < 15; n++)
+for (n = 0; n < 15; n++)
 {
 _putchar(i + '0');
 }
