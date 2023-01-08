@@ -14,22 +14,22 @@ for (i = 1; i <= 100; i++)
 {
 if (i == 1)
 {
-_putchar(i + '0');
+printf("%d", i);
 }
 else if ((i % 3 == 0) && (i % 5 == 0))
 {
-_putchar(' ');
+printf(" ");
 printf("FizzBuzz");
 }
 
 else if (i % 3 == 0)
 {
-_putchar(' ');
+printf(" ");
 printf("Fizz");
 }
 else if (i % 5 == 0)
 {
-_putchar(' ');
+printf(" ");
 printf("Buzz");
 }
 
