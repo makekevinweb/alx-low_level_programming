@@ -6,3 +6,5 @@ This directory is for files with more nested loopps inside them
 *4-print_more_numbers.c prints the first 10 natural numbers except 2 and 4
 *5-more_numbers.c prints the digits from 0 to 14, 10 times
 *6-print_line prints a line
+*7-print_diagonal prints a diagonal line
+*8-print_square prints a square using #
