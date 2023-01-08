@@ -13,7 +13,11 @@ for (i = 0; i < 10; i++)
 {
 for (n = 0; n < 15; n++)
 {
-_putchar(n + '0');
+if (n > 9)
+{
+_putchar('1'); /* prints 1 as the first number for digits between 9 and 20*/
+
+_putchar((n % 10) + '0');
 }
 _putchar('\n');
 }
