@@ -9,5 +9,6 @@ int mul(int a, int b)
 {
 int mul;
 mul = a * b;/*the product of the two integers*/
+print("%d\n", mul);
 return (0);
 }
