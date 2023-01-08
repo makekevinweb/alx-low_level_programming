@@ -16,7 +16,7 @@ for (n = 0; n < 15; n++)
 if (n > 9)
 {
 _putchar('1'); /* prints 1 as the first number for digits between 9 and 20*/
-
+}
 _putchar((n % 10) + '0');
 }
 _putchar('\n');
