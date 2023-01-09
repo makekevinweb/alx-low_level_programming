@@ -19,7 +19,7 @@ _putchar('\n');
 else
 {
 for (i = 0; i < n; i++)
-}
+{
 
 for (k = 0; k < ((n - i) - 1); k++)/*prints the spaces*/
 {
@@ -33,5 +33,4 @@ _putchar('#');
 _putchar('\n');
 }
 }
-
 }
