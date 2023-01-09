@@ -8,3 +8,5 @@ This directory is for files with more nested loopps inside them
 *6-print_line prints a line
 *7-print_diagonal prints a diagonal line
 *8-print_square prints a square using #
+*9-fizz_buzz prints numbers from 1 to 100 but multiples of 3 and 5 are replaced with fizz and buzz
+*10-print_triangle.c prints a triangle
