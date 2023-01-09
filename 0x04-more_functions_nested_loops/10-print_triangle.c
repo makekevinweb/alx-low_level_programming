@@ -7,31 +7,31 @@
  */
 void print_triangle(int n)
 {
-  int i;
-  int j;
-  int k;
-  
-  if (n < 1) /*for values below 1*/
-    {
-      _putchar('\n');
-    }
+int i;
+int j;
+int k;
 
-  else
-    {
-      for (i = 0; i < n; i++)
-	{
-	  
-	  for (k = 0; k < ((n - i) - 1); k++)
-	    {
-	      _putchar(' ');
-	    }
- 	  
-	  for (j = 0; j < (n - k); j++)
-	    {
-	      _putchar('#');
-	    }
-	  _putchar('\n');
-	}
-    }
+if (n < 1)/*for values below 1*/
+{
+_putchar('\n');
+}
+
+else
+{
+for (i = 0; i < n; i++)
+}
+
+for (k = 0; k < ((n - i) - 1); k++)/*prints the spaces*/
+{
+_putchar(' ');
+}
+
+for (j = 0; j < (n - k); j++)/* prints #'s*/
+{
+_putchar('#');
+}
+_putchar('\n');
+}
+}
 
 }
