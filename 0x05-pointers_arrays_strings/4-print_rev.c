@@ -16,6 +16,8 @@ while (s[i] != '\0')
 {
 i++;
 }
+ 
+i--;
 
 /*prints the string*/
 while (i >= 0)
