@@ -13,6 +13,7 @@ int len, i;
 
 /*calculates lenght of string using a function already predefined*/
 for (len = 0; s[len] != '\0'; len++)
+;
 
 /*reverse the string*/
 for (i = 0; i < (len / 2); i++)
