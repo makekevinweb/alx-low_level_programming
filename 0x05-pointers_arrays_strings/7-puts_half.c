@@ -11,9 +11,9 @@ void puts_half(char *str)
 int len, n;
 
 /* calculates length of string*/
-for(len = 0; str[len] != '\0'; len++)
+for (len = 0; str[len] != '\0'; len++)
 ;
- 
+
 if ((len % 2) != 0)
 {
 n = (len - 1) / 2;
