@@ -19,9 +19,9 @@ if ((len % 2) != 0)
 n = (len - 1) / 2;
 n++;
 }
-else if ((len % 2) == 0)
+else
 {
-n = len;
+n = len / 2;
 }
 
 while (n < len)
