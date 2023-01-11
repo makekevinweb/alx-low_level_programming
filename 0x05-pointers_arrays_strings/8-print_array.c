@@ -19,11 +19,11 @@ printf("%d", a[i]);
 
 i++;
 
-while (i < n)
+while (i <= n)
 {
 printf(", %d", a[i]);
 i++;
 }
-printf("%d\n", a[i]);
+printf("\n");
 }
 }
