@@ -17,8 +17,9 @@ for(len = 0; str[len] != '\0'; len++)
 if ((len % 2) != 0)
 {
 n = (len - 1) / 2;
+n++;
 }
-else
+else if ((len % 2) == 0)
 {
 n = len;
 }
