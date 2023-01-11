@@ -13,11 +13,14 @@ int len, n;
 /* calculates length of string*/
 for(len = 0; str[len] != '\0'; len++)
 ;
-n = len / 2;
  
 if (len % 2 != 0)
 {
 n = (len - 1) / 2;
+}
+else
+{
+n = len;
 }
 
 while (n < len)
