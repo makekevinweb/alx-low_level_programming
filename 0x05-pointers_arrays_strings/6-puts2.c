@@ -9,14 +9,9 @@
  */
 void puts2(char *str)
 {
-int len, i;
-
-/*calculate the length*/
-for (len = 0; str[len] != '\0'; len++)
-;
-
+int i;
 /*print the string by jumping some characters*/
-for (i = 0; i <= len; i++)
+for (i = 0; str[i] != '\0'; i++)
 {
 if (i % 2 == 0)
 {
