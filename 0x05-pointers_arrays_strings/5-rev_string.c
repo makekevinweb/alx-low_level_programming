@@ -1,3 +1,4 @@
+
 #include "main.h"
 /**
  *rev_string - reverses a string
@@ -6,25 +7,16 @@
  */
 void rev_string(char *s)
 {
-int length, back;
-int reverse[1000000000];
-/* we calculate length of string and also copy it*/
+int len, i;
 
-for (length = 0; s[length] != '\0'; length ++)
+/*calculates lenght of string using a function already predefined*/
+len = _strlen (s);
+
+/*reverse the string*/
+for (i = 0; i < (len / 2); i++)
 {
-reverse[length] = s[length];
+char temp = s[i];
+s[i] = s[len - i - 1];
+s[len - i - 1] = temp;
 }
-
-/* this reverses the string*/
-
-length --;
-
-while (length >= 0)
-{
-back = 0;
-s[back] = reverse[length];
-back++;
-length--;
-}
-s[(back + 1)] = '\0';
 }
