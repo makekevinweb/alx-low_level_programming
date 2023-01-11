@@ -5,6 +5,9 @@
  *
  *@s: pointer to string to reverse
  */
+
+int _strlen(char *s);
+
 void rev_string(char *s)
 {
 int len, i;
