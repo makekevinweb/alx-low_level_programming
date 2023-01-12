@@ -7,3 +7,7 @@
 *5-rev_string.c reverses a string
 *6-puts2.c prints a string by jumping some characters
 *7-puts_half.c prints half of a string
+*8-print_array.c prints the elements in an array
+*9-strcpy.c copies a string to another
+*100-atoi.c converts a numbers in a string to integers
+*101-keygen.c generates a random password
