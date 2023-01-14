@@ -13,11 +13,11 @@ void reverse_array(int *a, int n)
 {
 int i = 0;
 /*runs only for arrays with at least one element*/
-if ( n > 0)
+if (n > 0)
 {
-n--;
+int j = n--;
 /*reverses the array*/
-while (i < (n / 2))
+while (i < (j / 2))
 {
 int next;
 next = a[i];
