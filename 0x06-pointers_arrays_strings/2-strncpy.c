@@ -13,6 +13,7 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 int i = 0, j;
+n--;
 
 /*this loops starts copying new values to dest*/
 for (j = 0; j <= n; j++)
