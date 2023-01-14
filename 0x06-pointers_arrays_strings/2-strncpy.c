@@ -12,14 +12,17 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-int i = 0, j;
-n--;
+int i;
 
 /*this loops starts copying new values to dest*/
-for (j = 0; j <= n; j++)
+for (i = 0; i < n && src[i] != '\0'; i++)
 {
-dest[i] = src[j];
-i++;
+dest[i] = src[i];
 }
+
+/*adds the null character to last part of string*/
+for( ; i < n; i++)
+dest[i] = '\0';
+
 return (dest);
 }
