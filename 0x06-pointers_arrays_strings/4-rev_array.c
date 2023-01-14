@@ -12,7 +12,11 @@
 void reverse_array(int *a, int n)
 {
 int i = 0;
+/*runs only for arrays with at least one element*/
+if ( n > 0)
+{
 n--;
+/*reverses the array*/
 while (i < (n / 2))
 {
 int next;
@@ -21,5 +25,6 @@ a[i] = a[n];
 a[n] = next;
 i++;
 n--;
+}
 }
 }
