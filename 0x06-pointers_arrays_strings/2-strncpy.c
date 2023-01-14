@@ -21,7 +21,7 @@ dest[i] = src[i];
 }
 
 /*adds the null character to last part of string*/
-for( ; i < n; i++)
+for ( ; i < n; i++)
 dest[i] = '\0';
 
 return (dest);
