@@ -2,19 +2,21 @@
 
 /**
  *string_toupper - changes all Small letters to Capital letters
- * *: a pointer to a character in as string
+ *@str: string to convert
  *
- *Return: an uppercase character
+ *Return: string
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
-  while(*)
+  int i = 0;
+  while( str[i] != '\0')
     {
-      if( *[i] >= 'a' && *[i] <= 'z')
+      if (str[i] >= 97 && str[i] <= 122)
 	{
-	  *[i] = (*[i] - ' ');
+	  str[i] = str[i] - 32;
 	}
+      i++;
     }
 
-  return (*);
+  return (str);
   }
