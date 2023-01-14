@@ -9,7 +9,7 @@
 char *cap_string(char *str)
 {
   int i;
-  if (str == '\0')
+  if (*str == '\0')
     return (str);
   else
     {
