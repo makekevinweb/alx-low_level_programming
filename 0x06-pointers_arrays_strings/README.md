@@ -9,3 +9,5 @@ This directory contains more programs which focus on the use of arrays, pointers
 *6-cap_string.c capitalizes all words of a string
 *7-leet.c encodes a string into 1337
 *100-rot13.c encodes a string using ROT 13
+*101-print_number.c prints a digit using only putchar
+*102-magic.x manipulates the value of a certain memory in order to change the value of an element of an array and change the value to be printed
