@@ -5,3 +5,7 @@ This directory contains more programs which focus on the use of arrays, pointers
 *2-strncpy.c copies a portion of a string to another
 *3-strcmp.c compares two strings together
 *4-rev_array.c reverses an arrays of n integers
+*5-string_toupper.c changes lowercase letters to uppercase letters
+*6-cap_string.c capitalizes all words of a string
+*7-leet.c encodes a string into 1337
+*100-rot13.c encodes a string using ROT 13

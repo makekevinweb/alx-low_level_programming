@@ -2,23 +2,27 @@
 
 /**
  *rot13 - encodes a sting using rot13
- *@str: the string to encode
+ *@s: the string to encode
  *
  *Return: an encoded string
  */
-char *rot13(char *str)
+char *rot13(char *s)
 {
 int i;
-for (i = 0; str[i] != '\0'; i++)
+int j;
+char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+char datarot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
+for (i = 0; s[i] != '\0'; i++)
 {
-if ((str[i] >= 'a' && str[i] <= 'm') || (str[i] >= 'A' && str[i] <= 'M'))
+for (j = 0; j < 52; j++)
 {
-str[i] = str[i] + 13;
-}
-else if ((str[i] >= 'n' && str[i] <= 'z') || (str[i] >= 'N' && str[i] <= 'Z'))
+if (s[i] == data1[j])
 {
-str[i] = str[i] - 13;
+s[i] = datarot[j];
+break;
 }
 }
-return (str);
+}
+return (s);
 }
