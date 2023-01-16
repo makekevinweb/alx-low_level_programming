@@ -1,0 +1,28 @@
+#include "main.h"
+
+/**
+ *_strspn.c - calculates length of s with characters of accept
+ *@s: input string
+ *@accept: string containing characters to match against
+ *
+ *Return: the number of bytes in the initial segment of s which consist only of bytes from accept
+ */
+
+unsigned int _strspn(char *s, char *accept)
+{
+  int i, j;/* used to iterate through s and accept*/
+  unsigned int length = 0; /* stores lenght*/
+
+  /*iterates through s*/
+  for (i = 0; *(s + i) != '\0'; i++)
+    {
+      /* iterates through accept and search for match*/
+      for (j = 0; *(accept + j) != '\0'; j++)
+	{
+	  /* for every match length increase*/
+	  if (*(s + i) == *(accept + j))
+	    length++;
+	}
+    }
+  return (length);
+}
