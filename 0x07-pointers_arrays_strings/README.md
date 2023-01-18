@@ -8,3 +8,4 @@ This is directory with functions which work pointers, arrays , and strings
 *5-strstr.c finds occurence a substring in another string
 *7-print_chessboard.c prints a chessboard
 *8-print_diagsums.c prints the sums of the diagonals of an array
+*100-set_string.c sets the a new address for a pointer so as to change there data is it pointing at
