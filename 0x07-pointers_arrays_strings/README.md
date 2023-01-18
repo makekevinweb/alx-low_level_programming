@@ -7,3 +7,4 @@ This is directory with functions which work pointers, arrays , and strings
 *4-strpbrk.c locates first occurence of any bytes a string in another string
 *5-strstr.c finds occurence a substring in another string
 *7-print_chessboard.c prints a chessboard
+*8-print_diagsums.c prints the sums of the diagonals of an array
