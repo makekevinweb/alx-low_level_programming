@@ -4,7 +4,7 @@
 /**
  *_strstr -  finds first occurence of a substring in another string
  *
- *@haysatck: the string
+ *@haystack: the string
  *@needle: the sub string
  *
  *Return: a pointer to at beginning of located substring
@@ -12,22 +12,20 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-  int index = 0;
-  if (*needle == '\0')
-    return(haystack);
+int i, j;
 
-  while (*haystack != '\0')
-    {
-      if (*haystack == *needle)
-	{
-	  do{
-	    if (*(needle + 1) == '\0')
-	      return(haystack);
-	    
-	    index++;
-	  } while (*(haystack + index) == *(needle + index));
-	}
-      haystack++;
-    }
-  return (NULL);
+/*iterates through haystack by incrementing its pointer*/
+while (*haystack != '\0')
+{
+/*checks if the word is a substring of needle*/
+for (i = 0, j = 0; *(haystack + i) == *(needle + j); i++, j++)
+{
+/*checks it the end of needle is near*/
+if (*(needle + j + 1) == '\0')
+return (haystack);
+}
+haystack++;
+}
+
+return (NULL);
 }
