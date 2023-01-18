@@ -14,6 +14,10 @@ char *_strstr(char *haystack, char *needle)
 {
 int i, j;
 
+/*checks if needle is not empty*/
+if (*needle == '\0')
+return (haystack);
+
 /*iterates through haystack by incrementing its pointer*/
 while (*haystack != '\0')
 {
