@@ -1,6 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
 gcc -E $CFILE -o C
-=======
-gcc -E $CFILE -o c
->>>>>>> main
