@@ -24,5 +24,5 @@ int _sqrt(int num, int root)
 {
 if (num * num == root)
 return (num);
-return (_sqrt(num++, root));
+return (_sqrt(num + 1, root));
 }
