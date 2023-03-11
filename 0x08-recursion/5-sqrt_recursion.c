@@ -23,7 +23,6 @@ return (_sqrt(1, n));
 int _sqrt(int num, int root)
 {
 if (num * num == root)
-return (num)
-else
+return (num);
 return (_sqrt(num++, root));
 }
