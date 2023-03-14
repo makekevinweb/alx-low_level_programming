@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc -Wall -Pendatic -Wextra -c *.c
+gcc -c *.c
 ar cr liball.a *.o
