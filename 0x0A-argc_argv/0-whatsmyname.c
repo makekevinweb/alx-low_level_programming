@@ -8,6 +8,6 @@
 int main(int a, char *b[])
 {
 	(void) a;
-	printf("%s \n", b[0]);
+	printf("%s\n", b[0]);
 	return (0);
 }
