@@ -31,7 +31,6 @@ int main(int a, char *b[])
 		printf("%d\n", sum);
 		return (0);
 	}
-	}
 	else
 	{
 		printf("0\n");
