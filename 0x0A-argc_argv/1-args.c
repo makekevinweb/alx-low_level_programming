@@ -9,5 +9,5 @@ int main(int a, char *b[])
 {
 	(void) b;
 	printf("%d\n", a);
-	return(0);
+	return (0);
 }
