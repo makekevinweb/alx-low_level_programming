@@ -25,10 +25,12 @@ int main(int a, char *b[])
 			{
 				printf("Error\n");
 				return (1);
+				break;
 			}
-			printf("%d\n", sum);
-			return (0);
 		}
+		printf("%d\n", sum);
+		return (0);
+	}
 	}
 	else
 	{
