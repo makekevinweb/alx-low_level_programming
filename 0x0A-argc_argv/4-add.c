@@ -35,4 +35,5 @@ int main(int a, char *b[])
 		printf("0\n");
 		return (0);
 	}
+	return (0);
 }
