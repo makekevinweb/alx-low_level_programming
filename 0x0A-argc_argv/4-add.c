@@ -11,7 +11,7 @@ int main(int a, char *b[])
 {
 	int c = 1;
 	int sum = 0;
-
+/*this will give us sum if the numbers don't contain other symbols*/
 	if (a > 1)
 	{
 		while (c < a)
@@ -23,18 +23,23 @@ int main(int a, char *b[])
 			}
 			else
 			{
-				printf("Error\n");
-				return (1);
 				break;
 			}
 		}
-		printf("%d\n", sum);
-		return (0);
 	}
 	else
 	{
 		printf("0\n");
 		return (0);
 	}
-	return (0);
+	if (isdigit(*b[c]))
+	{
+		printf("%d\n", sum);
+		return (0);
+	}
+	else
+	{
+		printf("Error\n");
+		return (1);
+	}
 }
