@@ -8,11 +8,13 @@
  */
 int main(int a, char *b[])
 {
-	int c = atoi(b[1]);
-	int d = atoi(b[2]);
+	int c;
+	int d;
 
 	if (a == 3)
 	{
+		c = atoi(b[1]);
+		d = atoi(b[2]);
 		printf("%d\n", c * d);
 		return (0);
 	}
