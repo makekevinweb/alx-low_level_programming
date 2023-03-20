@@ -20,7 +20,7 @@ int main(int a, char *b[])
 	}
 	else
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 }
