@@ -9,6 +9,7 @@
 int main(int a, char *b[])
 {
 	int c;
+	int d;
 
 	if (a != 2)
 	{
@@ -23,10 +24,10 @@ int main(int a, char *b[])
 /* the lines are broken so as not to exceed max of characters for line*/
 	else
 	{
-		c = atoi(b[1]);
-		c = (c / 25) + ((c % 25) / 10) + (((c % 25) % 10) / 5);
-		c += ((((c % 25) % 10) % 5) / 2);
-		c += (((((c % 25) % 10) % 5) % 2) / 1);
+		d = atoi(b[1]);
+		c = (d / 25) + ((d % 25) / 10) + (((d % 25) % 10) / 5);
+		c += ((((d % 25) % 10) % 5) / 2);
+		c += (((((d % 25) % 10) % 5) % 2) / 1);
 		printf("%d\n", c);
 		return (0);
 	}
