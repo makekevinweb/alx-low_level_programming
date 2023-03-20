@@ -16,7 +16,7 @@ int main(int a, char *b[])
 	{
 		while (c < a)
 		{
-			if (isdigit(b[c]))
+			if (isdigit(*b[c]))
 			{
 				sum = sum + atoi(b[c]);
 				c++;
