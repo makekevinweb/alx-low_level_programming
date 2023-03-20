@@ -10,6 +10,7 @@
 int main(int a, char *b[])
 {
 	int c = 1;
+	int sum = 0;
 
 	if (a > 1)
 	{
@@ -17,7 +18,7 @@ int main(int a, char *b[])
 		{
 			if (isdigit(b[c]))
 			{
-				c = c + atoi(b[c]);
+				sum = sum + atoi(b[c]);
 				c++;
 			}
 			else
@@ -26,7 +27,7 @@ int main(int a, char *b[])
 				return (1);
 			}
 		}
-		printf("%d\n", c);
+		printf("%d\n", sum);
 		return (0);
 	}
 	else
