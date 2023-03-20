@@ -18,6 +18,7 @@ int main(int a, char *b[])
 			if (isdigit(b[c]))
 			{
 				c = c + atoi(b[c]);
+				c++;
 			}
 			else
 			{
