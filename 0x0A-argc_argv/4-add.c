@@ -17,14 +17,13 @@ int main(int a, char *b[])
 	{
 		while (c < a)
 		{
-			for (d = 0; b[c][d] !='\0'; d++)
+			for (d = 0; b[c][d] != '\0'; d++)
 			{
-				if(!isdigit(b[c][d]))
-					{
-						printf("Error\n");
+				if (!isdigit(b[c][d]))
+				{
+					printf("Error\n");
 						return (1);
-						break;
-					}
+				}
 			}
 			sum += atoi(b[c]);
 			c++;
