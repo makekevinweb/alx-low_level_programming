@@ -10,36 +10,31 @@
 int main(int a, char *b[])
 {
 	int c = 1;
+	int d;
 	int sum = 0;
 /*this will give us sum if the numbers don't contain other symbols*/
 	if (a > 1)
 	{
 		while (c < a)
 		{
-			if (isdigit(*b[c]))
+			for (d = 0; b[c][d] !='\0'; d++)
 			{
-				sum = sum + atoi(b[c]);
-				c++;
+				if(!isdigit(b[c][d]))
+					{
+						printf("Error\n");
+						return (1);
+						break;
+					}
 			}
-			else
-			{
-				break;
-			}
+			sum += atoi(b[c]);
+			c++;
 		}
-	}
-	else
-	{
-		printf("0\n");
-		return (0);
-	}
-	if (isdigit(*b[c]))
-	{
 		printf("%d\n", sum);
 		return (0);
 	}
 	else
 	{
-		printf("Error\n");
-		return (1);
+		printf("0\n");
+		return (0);
 	}
 }
