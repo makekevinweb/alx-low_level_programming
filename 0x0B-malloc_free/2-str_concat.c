@@ -16,6 +16,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	concat = strcat(s1, s2);
-	return(concat);
+	*concat = strcat(s1, s2);
+	return (concat);
 }
