@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  *_strdup - gives a pointer to a new string
  *@str: string to duplicate
@@ -13,12 +14,11 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	strcopy = malloc(sizeof(*str));
+	strcopy = malloc(sizeof(char) * (strlen(*str) + 1));
 	if (strcopy == NULL)
 	{
 		return (NULL);
 	}
-	strcopy = str;
+	strcpy(strcopy, str);
 	return (strcopy);
-	free(strcopy);
 }
