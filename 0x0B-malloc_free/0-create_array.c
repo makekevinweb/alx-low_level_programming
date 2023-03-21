@@ -19,5 +19,12 @@ char *create_array(unsigned int size, char c)
 	{
 		j[i] = c;
 	}
+	if (j == NULL)
+	{
+		return (NULL);
+	}
+	else
+	{
 	return (j);
+	}
 }
