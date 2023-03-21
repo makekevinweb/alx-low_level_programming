@@ -1,4 +1,4 @@
-#include <stdlib.h>
+q#include <stdlib.h>
 #include <stdio.h>
 /**
  *create_array - creates an array of chars
@@ -8,8 +8,8 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	int i;
-	char *j = char *malloc(sizeof(c) * size);
+	unsigned int i;
+	char *j = (char *) malloc(sizeof(c) * size);
 
 	if (size == 0)
 	{
