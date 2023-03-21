@@ -7,12 +7,12 @@
  */
 char *_strdup(char *str)
 {
+	char *strcopy;
+
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	char *strcopy;
-
 	strcopy = malloc(sizeof(*str));
 	if (strcopy == NULL)
 	{
