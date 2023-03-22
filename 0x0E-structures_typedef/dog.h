@@ -23,5 +23,4 @@ dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 char *_strncpy(char *dest, char *src, int n);
 int _strlen(char *s);
-typedef struct dog dog_t;
 #endif
