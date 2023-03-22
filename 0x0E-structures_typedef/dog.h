@@ -6,7 +6,7 @@
  * @age: age of the dog.
  * @owner: owner of the dog.
  * Desctiption: a structure with the name, age and owner of a dog.
- **/
+ */
 
 struct dog
 {
