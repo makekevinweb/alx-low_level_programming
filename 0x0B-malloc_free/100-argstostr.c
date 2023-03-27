@@ -35,7 +35,7 @@ char *argstostr(int ac, char **av)
 				sentence[k] = av[i][j];
 				k++;
 			}
-			sentence[k] = '\n';
+			sentence[k] = 'n';
 			k++;
 		}
 	sentence[k] = '\0';
