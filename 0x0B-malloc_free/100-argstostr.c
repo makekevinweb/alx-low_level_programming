@@ -21,7 +21,7 @@ char *argstostr(int ac, char **av)
 		*tlength += j;
 	}
 	*tlength += ac;
-	sentence = malloc(sizeof(char) * length);
+	sentence = malloc(sizeof(char) * (length + 1));
 	if (sentence == NULL)
 		return (NULL);
 	for (k = 0, i = 0, j = 0; k < (length - 1); )
