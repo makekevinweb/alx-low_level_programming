@@ -14,6 +14,7 @@ char *argstostr(int ac, char **av)
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
+	/*calculate lenght of concatenated string*/
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
@@ -21,10 +22,11 @@ char *argstostr(int ac, char **av)
 		*tlength += j;
 	}
 	*tlength += ac;
+	/*allocate memo to concatenated string*/
 	sentence = malloc(sizeof(char) * (length + 1));
 	if (sentence == NULL)
 		return (NULL);
-
+/** copies to concatenated string*/
 	k = 0;
 		for (i = 0; i < ac; i++)
 		{
@@ -33,9 +35,9 @@ char *argstostr(int ac, char **av)
 				sentence[k] = av[i][j];
 				k++;
 			}
-			k++;
 			sentence[k] = '\n';
+			k++;
 		}
-	sentence[k + 1] = '\0';
+	sentence[k] = '\0';
 	return (sentence);
 }
