@@ -36,5 +36,6 @@ char *argstostr(int ac, char **av)
 			sentence[k] = '\n';
 		}
 	}
+	sentence[k + 1] == '\0';
 	return (sentence);
 }
