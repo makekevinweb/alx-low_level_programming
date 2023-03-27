@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- *alloc_grid - creats a two dimensional array with all elements initialized to 0
+ *alloc_grid - creates a two dimensional array of elements initialized to 0
  *@width: width of the array
  *@height: height of the array
  *Return: pointer to the two dimensional array
