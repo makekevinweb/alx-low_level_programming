@@ -1,0 +1,14 @@
+#include <stdlib.h>
+/**
+ * argstostr - concatenates arguments.
+ * @ac: number of string to be concatenated.
+ * @av: strings to be concatenated.
+ * Return: String concatenated.
+ */
+char *argstostr(int ac, char **av)
+{
+	int length = 0;
+	int *tlength = &length;
+	int i,j;
+
+	
