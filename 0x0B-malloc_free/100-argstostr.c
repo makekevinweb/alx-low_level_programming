@@ -24,18 +24,18 @@ char *argstostr(int ac, char **av)
 	sentence = malloc(sizeof(char) * (length + 1));
 	if (sentence == NULL)
 		return (NULL);
-	for (k = 0, i = 0, j = 0; k < (length - 1); )
-	{
+
+	k = 0;
 		for (i = 0; i < ac; i++)
 		{
-			for (j = 0; av[i][j] != '\0'; j++, k++)
+			for (j = 0; av[i][j] != '\0'; j++)
 			{
 				sentence[k] = av[i][j];
+				k++;
 			}
 			k++;
 			sentence[k] = '\n';
 		}
-	}
 	sentence[k + 1] = '\0';
 	return (sentence);
 }
