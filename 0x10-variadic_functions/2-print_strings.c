@@ -6,7 +6,7 @@
  * print_strings - Print numbers
  * @separator: char separating numbers
  * @n: number of iterations
- * return: Returns an int
+ * return: void
  **/
 
 void print_strings(const char *separator, const unsigned int n, ...)
@@ -33,5 +33,5 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	}
 	printf("\n");
 	va_end(ls);
-	return;
+	return (NULL);
 }
